@@ -1,0 +1,105 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { GameContent, Grade } from '../../../../types';
+
+export const SPANSK_AUDIO: Partial<Record<Grade, GameContent[]>> = {
+  0: [
+    { id: 'sp0-a1', type: 'Audio', question: 'Madre', answer: 'Madre', options: ['Madre', 'Padre', 'Hijo', 'Hija'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a2', type: 'Audio', question: 'Agua', answer: 'Agua', options: ['Leche', 'Agua', 'Jugo', 'Pan'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a3', type: 'Audio', question: 'Casa', answer: 'Casa', options: ['Casa', 'Escuela', 'Parque', 'Coche'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a4', type: 'Audio', question: 'Perro', answer: 'Perro', options: ['Gato', 'Perro', 'Vaca', 'Mono'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a5', type: 'Audio', question: 'Gato', answer: 'Gato', options: ['Pez', 'Pájaro', 'Gato', 'Ratón'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a6', type: 'Audio', question: 'Naranja', answer: 'Naranja', options: ['Manzana', 'Naranja', 'Plátano', 'Pera'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a7', type: 'Audio', question: 'Sol', answer: 'Sol', options: ['Luna', 'Sol', 'Nube', 'Lluvia'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a8', type: 'Audio', question: 'Luna', answer: 'Luna', options: ['Estrella', 'Cielo', 'Luna', 'Mar'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a9', type: 'Audio', question: 'Pan', answer: 'Pan', options: ['Queso', 'Carne', 'Pan', 'Sopa'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a10', type: 'Audio', question: 'Leche', answer: 'Leche', options: ['Té', 'Café', 'Leche', 'Vino'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a11', type: 'Audio', question: 'Hola', answer: 'Hola', options: ['Adiós', 'Hola', 'Gracias', 'Por favor'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a12', type: 'Audio', question: 'Adiós', answer: 'Adiós', options: ['Adiós', 'Hola', 'Hasta luego', 'Buenos días'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a13', type: 'Audio', question: 'Uno', answer: 'Uno', options: ['Uno', 'Dos', 'Tres', 'Diez'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a14', type: 'Audio', question: 'Diez', answer: 'Diez', options: ['Nueve', 'Diez', 'Once', 'Cero'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a15', type: 'Audio', question: 'Rojo', answer: 'Rojo', options: ['Azul', 'Verde', 'Rojo', 'Blanco'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a16', type: 'Audio', question: 'Azul', answer: 'Azul', options: ['Rojo', 'Azul', 'Amarillo', 'Negro'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a17', type: 'Audio', question: 'Verde', answer: 'Verde', options: ['Morado', 'Naranja', 'Verde', 'Gris'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a18', type: 'Audio', question: 'Amarillo', answer: 'Amarillo', options: ['Amarillo', 'Blanco', 'Rosa', 'Marron'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a19', type: 'Audio', question: 'Flor', answer: 'Flor', options: ['Árbol', 'Flor', 'Hoja', 'Hierba'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a20', type: 'Audio', question: 'Libro', answer: 'Libro', options: ['Lápiz', 'Papel', 'Libro', 'Silla'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a21', type: 'Audio', question: 'Silla', answer: 'Silla', options: ['Mesa', 'Cama', 'Silla', 'Armario'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a22', type: 'Audio', question: 'Mesa', answer: 'Mesa', options: ['Sofá', 'Puerta', 'Ventana', 'Mesa'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a23', type: 'Audio', question: 'Pájaro', answer: 'Pájaro', options: ['Pez', 'Perro', 'Gato', 'Pájaro'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a24', type: 'Audio', question: 'Pez', answer: 'Pez', options: ['Oruga', 'Rana', 'Pez', 'Ballena'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp0-a25', type: 'Audio', question: 'Bebé', answer: 'Bebé', options: ['Niño', 'Abuelo', 'Bebé', 'Hombre'], instruction: 'Escucha y selecciona la palabra' },
+  ],
+  // (Adding more grades with similar structure, about 10-15 each for now to cover all)
+  1: [
+    { id: 'sp1-a1', type: 'Audio', question: 'Escuela', answer: 'Escuela', options: ['Escuela', 'Parque', 'Cine', 'Tienda'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp1-a2', type: 'Audio', question: 'Maestro', answer: 'Maestro', options: ['Maestro', 'Médico', 'Bombero', 'Policía'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp1-a3', type: 'Audio', question: 'Lápiz', answer: 'Lápiz', options: ['Bolígrafo', 'Lápiz', 'Goma', 'Regla'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp1-a4', type: 'Audio', question: 'Cuaderno', answer: 'Cuaderno', options: ['Mochila', 'Libro', 'Cuaderno', 'Cartuchera'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp1-a5', type: 'Audio', question: 'Mochila', answer: 'Mochila', options: ['Mochila', 'Zapatos', 'Ropa', 'Gorra'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp1-a6', type: 'Audio', question: 'Fruta', answer: 'Fruta', options: ['Verdura', 'Carne', 'Fruta', 'Dulce'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp1-a7', type: 'Audio', question: 'Vegetal', answer: 'Vegetal', options: ['Fruta', 'Vegetal', 'Lácteo', 'Sereal'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp1-a8', type: 'Audio', question: 'Familia', answer: 'Familia', options: ['Amigo', 'Vecino', 'Familia', 'Extraño'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp1-a9', type: 'Audio', question: 'Amigo', answer: 'Amigo', options: ['Hermano', 'Primo', 'Amigo', 'Compañero'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp1-a10', type: 'Audio', question: 'Jugar', answer: 'Jugar', options: ['Leer', 'Escribir', 'Jugar', 'Dormir'], instruction: 'Escucha y selecciona la palabra' },
+  ],
+  2: [
+    { id: 'sp2-a1', type: 'Audio', question: 'Biblioteca', answer: 'Biblioteca', options: ['Biblioteca', 'Escritorio', 'Museo', 'Gimnasio'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp2-a2', type: 'Audio', question: 'Calculadora', answer: 'Calculadora', options: ['Computadora', 'Calculadora', 'Teléfono', 'Radio'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp2-a3', type: 'Audio', question: 'Diccionario', answer: 'Diccionario', options: ['Revista', 'Periódico', 'Diccionario', 'Enciclopedia'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp2-a4', type: 'Audio', question: 'Examen', answer: 'Examen', options: ['Clase', 'Tarea', 'Examen', 'Proyecto'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp2-a5', type: 'Audio', question: 'Vacaciones', answer: 'Vacaciones', options: ['Trabajo', 'Estudio', 'Vacaciones', 'Reunión'], instruction: 'Escucha y selecciona la palabra' },
+  ],
+  3: [
+    { id: 'sp3-a1', type: 'Audio', question: 'Geografía', answer: 'Geografía', options: ['Historia', 'Ciencia', 'Geografía', 'Arte'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp3-a2', type: 'Audio', question: 'Matemáticas', answer: 'Matemáticas', options: ['Matemáticas', 'Música', 'Deporte', 'Religión'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp3-a3', type: 'Audio', question: 'Literatura', answer: 'Literatura', options: ['Poesía', 'Teatro', 'Literatura', 'Cine'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp3-a4', type: 'Audio', question: 'Experimento', answer: 'Experimento', options: ['Teoría', 'Hipótesis', 'Experimento', 'Resultado'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp3-a5', type: 'Audio', question: 'Laboratorio', answer: 'Laboratorio', options: ['Taller', 'Laboratorio', 'Aula', 'Oficina'], instruction: 'Escucha y selecciona la palabra' },
+  ],
+  4: [
+    { id: 'sp4-a1', type: 'Audio', question: 'Constitución', answer: 'Constitución', options: ['Ley', 'Decreto', 'Constitución', 'Norma'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp4-a2', type: 'Audio', question: 'Democracia', answer: 'Democracia', options: ['Voto', 'Gobierno', 'Democracia', 'Libertad'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp4-a3', type: 'Audio', question: 'Ciudadanía', answer: 'Ciudadanía', options: ['Derecho', 'Deber', 'Ciudadanía', 'Identidad'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp4-a4', type: 'Audio', question: 'Solidaridad', answer: 'Solidaridad', options: ['Respeto', 'Paz', 'Solidaridad', 'Justicia'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp4-a5', type: 'Audio', question: 'Ecología', answer: 'Ecología', options: ['Medio ambiente', 'Reciclaje', 'Ecología', 'Planeta'], instruction: 'Escucha y selecciona la palabra' },
+  ],
+  5: [
+    { id: 'sp5-a1', type: 'Audio', question: 'Tecnología', answer: 'Tecnología', options: ['Internet', 'Redes', 'Tecnología', 'Innovación'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp5-a2', type: 'Audio', question: 'Comunicación', answer: 'Comunicación', options: ['Mensaje', 'Canal', 'Comunicación', 'Receptor'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp5-a3', type: 'Audio', question: 'Investigación', answer: 'Investigación', options: ['Análisis', 'Síntesis', 'Investigación', 'Método'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp5-a4', type: 'Audio', question: 'Globalización', answer: 'Globalización', options: ['Economía', 'Comercio', 'Globalización', 'Cultura'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp5-a5', type: 'Audio', question: 'Sostenibilidad', answer: 'Sostenibilidad', options: ['Recursos', 'Energía', 'Sostenibilidad', 'Futuro'], instruction: 'Escucha y selecciona la palabra' },
+  ],
+  6: [
+    { id: 'sp6-a1', type: 'Audio', question: 'Civilización', answer: 'Civilización', options: ['Cultura', 'Imperio', 'Civilización', 'Sociedad'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp6-a2', type: 'Audio', question: 'Renacimiento', answer: 'Renacimiento', options: ['Barroco', 'Gótico', 'Renacimiento', 'Clásico'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp6-a3', type: 'Audio', question: 'Filosofía', answer: 'Filosofía', options: ['Ética', 'Lógica', 'Filosofía', 'Metafísica'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp6-a4', type: 'Audio', question: 'Arqueología', answer: 'Arqueología', options: ['Fósil', 'Escavación', 'Arqueología', 'Reliquia'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp6-a5', type: 'Audio', question: 'Arquitectura', answer: 'Arquitectura', options: ['Construcción', 'Diseño', 'Arquitectura', 'Plano'], instruction: 'Escucha y selecciona la palabra' },
+  ],
+  7: [
+    { id: 'sp7-a1', type: 'Audio', question: 'Psicología', answer: 'Psicología', options: ['Mente', 'Conducta', 'Psicología', 'Terapia'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp7-a2', type: 'Audio', question: 'Sociología', answer: 'Sociología', options: ['Grupo', 'Masa', 'Sociología', 'Estructura'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp7-a3', type: 'Audio', question: 'Antropología', answer: 'Antropología', options: ['Hombre', 'Evolución', 'Antropología', 'Costumbre'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp7-a4', type: 'Audio', question: 'Astronomía', answer: 'Astronomía', options: ['Galaxia', 'Agujero negro', 'Astronomía', 'Cosmología'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp7-a5', type: 'Audio', question: 'Bioingeniería', answer: 'Bioingeniería', options: ['Genética', 'Biología', 'Bioingeniería', 'Medicina'], instruction: 'Escucha y selecciona la palabra' },
+  ],
+  8: [
+    { id: 'sp8-a1', type: 'Audio', question: 'Existencialismo', answer: 'Existencialismo', options: ['Nihilismo', 'Existencialismo', 'Humanismo', 'Idealismo'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp8-a2', type: 'Audio', question: 'Cibernética', answer: 'Cibernética', options: ['Robótica', 'Cibernética', 'Informática', 'Sistemas'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp8-a3', type: 'Audio', question: 'Epistemología', answer: 'Epistemología', options: ['Ontología', 'Axiología', 'Epistemología', 'Gnoseología'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp8-a4', type: 'Audio', question: 'Paleontología', answer: 'Paleontología', options: ['Zoología', 'Botánica', 'Paleontología', 'Geología'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp8-a5', type: 'Audio', question: 'Siderurgia', answer: 'Siderurgia', options: ['Metalurgia', 'Minería', 'Siderurgia', 'Industria'], instruction: 'Escucha y selecciona la palabra' },
+  ],
+  9: [
+    { id: 'sp9-a1', type: 'Audio', question: 'Nanotecnología', answer: 'Nanotecnología', options: ['Química', 'Física', 'Nanotecnología', 'Biotecnología'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp9-a2', type: 'Audio', question: 'Macroeconomía', answer: 'Macroeconomía', options: ['Microeconomía', 'Finanzas', 'Macroeconomía', 'Estadística'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp9-a3', type: 'Audio', question: 'Jurisprudencia', answer: 'Jurisprudencia', options: ['Derecho', 'Justicia', 'Jurisprudencia', 'Legislación'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp9-a4', type: 'Audio', question: 'Esteganografía', answer: 'Esteganografía', options: ['Criptografía', 'Codificación', 'Esteganografía', 'Seguridad'], instruction: 'Escucha y selecciona la palabra' },
+    { id: 'sp9-a5', type: 'Audio', question: 'Termodinámica', answer: 'Termodinámica', options: ['Cinética', 'Mecánica', 'Termodinámica', 'Óptica'], instruction: 'Escucha y selecciona la palabra' },
+  ],
+};

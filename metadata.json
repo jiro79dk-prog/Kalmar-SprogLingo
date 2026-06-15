@@ -1,0 +1,6 @@
+{
+  "name": "Kalmar: SprogLingo",
+  "description": "En interaktiv uddannelsesplatform til sprogindlæring (Dansk, Engelsk, Tysk, Fransk) for 0.-9. klasse.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": []
+}

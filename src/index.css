@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700;900&family=Inter:wght@400;700;900&family=Outfit:wght@400;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-dyslexic: "Lexend", sans-serif;
+}
+
+body {
+  @apply selection:bg-indigo-300 antialiased;
+}
+
+.dyslexic-mode {
+  --font-sans: 'OpenDyslexic', 'Lexend', sans-serif !important;
+  font-family: var(--font-sans) !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.05ch !important;
+  word-spacing: 0.1ch !important;
+}
+
+.dyslexic-mode * {
+  font-family: inherit !important;
+  text-align: left !important;
+  font-size: max(16px, 1em) !important;
+}
+
+.dyslexic-mode:not(.dark-mode) {
+  background-color: #FDF5E6 !important;
+}
+
+.dark-mode {
+  color-scheme: dark;
+}
+
+.dark-mode .glass-card {
+  @apply bg-slate-900/60 border-slate-700/60;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3 {
+  @apply text-slate-100;
+}
+
+.dark-mode p, .dark-mode span:not(.text-white) {
+  @apply text-slate-300;
+}
+
+.dark-mode .bg-white {
+  background-color: theme('colors.slate.800') !important;
+}
+
+.dark-mode .border-gray-200 {
+  border-color: theme('colors.slate.700') !important;
+}
+  
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.glass-card {
+  @apply bg-white/40 backdrop-blur-md border border-white/60 rounded-3xl shadow-sm transition-all;
+}
+
+.glass-card-hover {
+  @apply hover:bg-white/60 hover:shadow-md transition-all;
+}
+
+.glass-button {
+  @apply bg-white/50 backdrop-blur-sm border border-white/80 rounded-xl transition-all active:scale-95;
+}
+

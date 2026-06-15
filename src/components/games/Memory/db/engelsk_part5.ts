@@ -1,0 +1,61 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { GameContent, Grade } from '../../../../types';
+
+export const ENGELSK_MEMORY_P5: Partial<Record<Grade, GameContent[]>> = {
+  10: [
+    { id: 'en10-me1', type: 'Memory', question: 'Shakespearean Terms', instruction: 'Match the terms', answer: '', context: 'Bard:Poet|Globe:Theater|Sonnet:Poem|Tragedy:Sad Play|Comedy:Funny Play|Soliloquy:Talking alone' },
+    { id: 'en10-me2', type: 'Memory', question: 'Dystopian Literature', instruction: 'Match the terms', answer: '', context: 'Orwell:1984|Huxley:Brave New World|Totalitarian:Control|Surveillance:Watching|Utopia:Perfect|Dystopia:Oppressive' },
+    { id: 'en10-me3', type: 'Memory', question: 'Science & Ethics', instruction: 'Match the terms', answer: '', context: 'Cloning:Genetic Copy|AI:Robot Mind|Bioethics:Moral Science|Gene Editing:CRISPR|Environment:Nature|Sustainability:Future' },
+    { id: 'en10-me4', type: 'Memory', question: 'Global Politics', instruction: 'Match the terms', answer: '', context: 'Diplomacy:Talking|Sanctions:Punishment|Treaty:Agreement|Sovereignty:Independence|UN:Global Body|NATO:Alliance' },
+    { id: 'en10-me5', type: 'Memory', question: 'Modern History', instruction: 'Match the terms', answer: '', context: 'Cold War:USA/USSR|Space Race:Moon|Vietnam:Conflict|Berlin Wall:Division|Fall of USSR:1991|Digital Revolution:Computers' },
+    { id: 'en10-me6', type: 'Memory', question: 'Vocabulary: Advanced 1', instruction: 'Match meanings', answer: '', context: 'Ephemeral:Short-lived|Ubiquitous:Everywhere|Pragmatic:Practical|Enigma:Mystery|Mitigate:Reduce|Exacerbate:Make worse' },
+    { id: 'en10-me7', type: 'Memory', question: 'Gothic Literature', instruction: 'Match elements', answer: '', context: 'Dracula:Vampire|Frankenstein:Monster|Setting:Dark Castle|Theme:Death|Style:Romantic/Scary|Author:Mary Shelley' },
+    { id: 'en10-me8', type: 'Memory', question: 'Psychology Terms', instruction: 'Match terms', answer: '', context: 'Cognition:Thinking|Behavior:Actions|Subconscious:Hidden|Therapy:Help|Trauma:Pain|Empathy:Understanding' },
+    { id: 'en10-me9', type: 'Memory', question: 'Digital World', instruction: 'Match terms', answer: '', context: 'Algorithm:Logic|Privacy:Security|Data Mining:Info gathering|Encryption:Coding|Cybersecurity:Protection|Blockchain:Ledger' },
+    { id: 'en10-me10', type: 'Memory', question: 'Human Rights', instruction: 'Match terms', answer: '', context: 'Amnesty:Freedom|Equality:Rights|Justice:Law|Activism:Action|Protest:Vocal|Universal:For all' },
+    { id: 'en10-me11', type: 'Memory', question: 'Literature: Poetry 1', instruction: 'Match terms', answer: '', context: 'Metaphor:Image|Simile:Like/As|Stanza:Paragraph|Rhyme:Sound|Rhythm:Beat|Alliteration:Same letters' },
+    { id: 'en10-me12', type: 'Memory', question: 'Literature: Drama 1', instruction: 'Match terms', answer: '', context: 'Protagonist:Main character|Antagonist:Villain|Dialogue:Talking|Monologue:Solo speech|Plot:Storyline|Conflict:Problem' },
+    { id: 'en10-me13', type: 'Memory', question: 'Media Literacy', instruction: 'Match terms', answer: '', context: 'Bias:Leaning|Fack-checking:Verification|Source:Origin|Propaganda:Manipulation|Editorial:Opinion|Headline:Main Title' },
+    { id: 'en10-me14', type: 'Memory', question: 'Sociology 1', instruction: 'Match terms', answer: '', context: 'Norms:Rules|Values:Beliefs|Culture:Way of life|Status:Rank|Class:Social group|Institution:System' },
+    { id: 'en10-me15', type: 'Memory', question: 'Economics 1', instruction: 'Match terms', answer: '', context: 'Inflation:Price rising|Recession:Downfall|Market:Trade|Capital:Money|Supply:Amount|Demand:Needs' },
+    { id: 'en10-me16', type: 'Memory', question: 'Philosophy 1', instruction: 'Match terms', answer: '', context: 'Ethics:Right/Wrong|Logic:Reasoning|Existence:Being|Metaphysics:Beyond|Epistemology:Knowledge|Nihilism:Nothingness' },
+    { id: 'en10-me17', type: 'Memory', question: 'Environment 1', instruction: 'Match terms', answer: '', context: 'Ecosystem:System|Biodiversity:Life|Global Warming:Heat|Pollution:Dirty|Conservation:Protect|Renewable:Clean' },
+    { id: 'en10-me18', type: 'Memory', question: 'Astronomy 1', instruction: 'Match terms', answer: '', context: 'Galaxy:Stars|Orbit:Path|Gravity:Pull|Black Hole:Trap|Nebula:Cloud|Exoplanet:New World' },
+    { id: 'en10-me19', type: 'Memory', question: 'Civil Rights 1', instruction: 'Match terms', answer: '', context: 'Segregation:Separated|Integration:Joined|Suffrage:Voting|Liberty:Freedom|Civil Disobedience:Non-violence|Amendment:Change' },
+    { id: 'en10-me20', type: 'Memory', question: 'Rhetoric 1', instruction: 'Match terms', answer: '', context: 'Ethos:Credibility|Pathos:Emotion|Logos:Logic|Irony:Opposite|Sarcasm:Sharp|Hyperbole:Exaggeration' },
+    { id: 'en10-me21', type: 'Memory', question: 'Geography 1', instruction: 'Match terms', answer: '', context: 'Plate Tectonics:Movement|Crust:Shell|Mantle:Middle|Core:Center|Volcano:Fire|Earthquake:Shake' },
+    { id: 'en10-me22', type: 'Memory', question: 'Law 1', instruction: 'Match terms', answer: '', context: 'Plaintiff:Accuser|Defendant:Accused|Verdict:Decision|Jury:People|Judge:Leader|Trial:Hearing' },
+    { id: 'en10-me23', type: 'Memory', question: 'Biology 1', instruction: 'Match terms', answer: '', context: 'DNA:Code|Cell:Building block|Evolution:Change|Genetics:Inheritance|Metabolism:Energy|Homeostasis:Balance' },
+    { id: 'en10-me24', type: 'Memory', question: 'Chemistry 1', instruction: 'Match terms', answer: '', context: 'Atom:Part|Element:Pure|Compound:Mixed|Reaction:Change|Acid:H+|Base:OH-' },
+    { id: 'en10-me25', type: 'Memory', question: 'Physics 1', instruction: 'Match terms', answer: '', context: 'Force:Push/Pull|Mass:Stuff|Weight:Gravity|Velocity:Speed|Acceleration:Speeding up|Energy:Work' },
+    { id: 'en10-me26', type: 'Memory', question: 'Shakespeare: Plays 1', instruction: 'Match play to genre', answer: '', context: 'Hamlet:Tragedy|Macbeth:Tragedy|A Midsummer...:Comedy|Much Ado...:Comedy|Henry V:History|Richard III:History' },
+    { id: 'en10-me27', type: 'Memory', question: 'Modern Tech 1', instruction: 'Match terms', answer: '', context: 'Cloud:Lager|IoT:Connected|5G:Speed|VR:Virtual|AR:Added|Nanotech:Little' },
+    { id: 'en10-me28', type: 'Memory', question: 'Grammar: Advanced 2', instruction: 'Match terms', answer: '', context: 'Gerund:-ing|Infinitive:to|Participle:Adjective|Passive:Action done|Active:Action doer|Conditional:if' },
+    { id: 'en10-me29', type: 'Memory', question: 'Advanced Vocabulary 2', instruction: 'Match meanings', answer: '', context: 'Surreptitious:Secret|Ineffable:No words|Benevolent:Kind|Resilient:Tough|Articulate:Expressive|Diligent:Hard-working' },
+    { id: 'en10-me30', type: 'Memory', question: 'World Cultures 1', instruction: 'Match terms', answer: '', context: 'Tradition:Past|Globalism:World|Local:Here|Indigenous:Original|Diversity:Many|Harmony:Together' },
+    { id: 'en10-me31', type: 'Memory', question: 'Literary Devices 1', instruction: 'Match terms', answer: '', context: 'Onomatopoeia:Sound|Oxymoron:Contradiction|Personification:Human status|Allegory:Hidden meaning|Paradox:Logic puzzle|Symbolism:Objects' },
+    { id: 'en10-me32', type: 'Memory', question: 'Historical Eras 1', instruction: 'Match eras', answer: '', context: 'Renaissance:Rebirth|Enlightenment:Reason|Industrial:Factories|Victorian:Queen V|Modern:Now|Post-modern:New' },
+    { id: 'en10-me33', type: 'Memory', question: 'American Literature 1', instruction: 'Match story items', answer: '', context: 'Gatsby:Wealth|Mockingbird:Justice|The Crucible:Witchcraft|Scarlet Letter:Sin|Moby Dick:Whale|Huck Finn:River' },
+    { id: 'en10-me34', type: 'Memory', question: 'British Literature 1', instruction: 'Match story items', answer: '', context: 'Oliver Twist:Orphan|Wuthering Heights:Moors|Emma:Matchmaking|Middlemarch:Town|Jane Eyre:Governess|Sherlock:Detective' },
+    { id: 'en10-me35', type: 'Memory', question: 'Global English 1', instruction: 'Match dialects', answer: '', context: 'Picket:Gate (no)|Ute:Vehicle (Au)|Flat:Apartment (UK)|Faucet:Tap (US)|Eh:Tag (CA)|Kia Ora:Hello (NZ)' },
+    { id: 'en10-me36', type: 'Memory', question: 'Business English 1', instruction: 'Match terms', answer: '', context: 'Revenue:Income|Overhead:Costs|Asset:Value|Liability:Debt|Equity:Shares|Profit:Gain' },
+    { id: 'en10-me37', type: 'Memory', question: 'Current Events 1', instruction: 'Match terms', answer: '', context: 'Sanctions:Trade stop|Cyber warfare:Digital war|Populism:People power|Refugee crisis:Migration|Fake news:Disinfo|Pandemic:Health' },
+    { id: 'en10-me38', type: 'Memory', question: 'Academic English 1', instruction: 'Match terms', answer: '', context: 'Abstract:Summary|Hypothesis:Testable|Methodology:How|Quantitative:Numbers|Qualitative:Quality|Peer review:Check' },
+    { id: 'en10-me39', type: 'Memory', question: 'Art History 1', instruction: 'Match styles', answer: '', context: 'Impressionism:Light|Surrealism:Dreams|Cubism:Shapes|Abstract:No object|Realism:True|Renaissance:Classic' },
+    { id: 'en10-me40', type: 'Memory', question: 'Music Genres 1', instruction: 'Match styles', answer: '', context: 'Jazz:Swing|Blues:History|Classical:Symphony|Hip Hop:Beat|Rock:Guitar|Pop:Charts' },
+    { id: 'en10-me41', type: 'Memory', question: 'Medical English 1', instruction: 'Match terms', answer: '', context: 'Diagnosis:Identify|Treatment:Help|Prognosis:Forecase|Symptom:Sign|Condition:Status|Therapy:Solution' },
+    { id: 'en10-me42', type: 'Memory', question: 'Ethics 1', instruction: 'Match terms', answer: '', context: 'Utilitarian:Most good|Deontology:Duty|Virtue:Character|Relativism:Context|Absolutism:Static|Morality:Actions' },
+    { id: 'en10-me43', type: 'Memory', question: 'Global Economy 1', instruction: 'Match terms', answer: '', context: 'Globalization:Connected|Tariff:Tax|Subsidy:Help|GDP:Total|Free Trade:No tax|Scarcity:Little' },
+    { id: 'en10-me44', type: 'Memory', question: 'Advanced Phrasal Verbs 1', instruction: 'Match verbs', answer: '', context: 'Bring up:Mention|Call off:Cancel|Look forward to:Expect|Carry on:Continue|Put off:Delay|Take up:Start' },
+    { id: 'en10-me45', type: 'Memory', question: 'Idioms: Advanced 1', instruction: 'Match meanings', answer: '', context: 'Piece of cake:Easy|Break a leg:Good luck|Under the weather:Sick|Beat around the bush:Avoid|Bite the bullet:Face it|Call it a day:Stop' },
+    { id: 'en10-me46', type: 'Memory', question: 'English Etymology 1', instruction: 'Match roots', answer: '', context: 'Aqua:Water|Bio:Life|Geo:Earth|Phono:Sound|Tele:Far|Graph:Write' },
+    { id: 'en10-me47', type: 'Memory', question: 'Public Speaking 1', instruction: 'Match terms', answer: '', context: 'Projection:Volume|Posture:Body|Tone:Voice|Pacing:Speed|Pause:Stop|Visual aids:Show' },
+    { id: 'en10-me48', type: 'Memory', question: 'World Religions 1', instruction: 'Match items', answer: '', context: 'Church:Christianity|Mosque:Islam|Synagogue:Judaism|Temple:Buddhism|Gurdwara:Sikhism|Shrine:Shinto' },
+    { id: 'en10-me49', type: 'Memory', question: 'Modern Philosophy 1', instruction: 'Match thinkers', answer: '', context: 'Rationalism:Descartes|Empiricism:Locke|Existentialism:Sartre|Post-modernism:Derrida|Idealism:Kant|Materialism:Marx' },
+    { id: 'en10-me50', type: 'Memory', question: 'Mix final Grade 10 English', instruction: 'Match items', answer: '', context: 'Exam:Test|University:Goal|Future:Success|Life:Journey|End:Beginning|Goodbye:Soon' },
+  ]
+};
